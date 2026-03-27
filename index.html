@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carding App | Claim ₦10,000 Bonus</title>
+    <style>
+        :root {
+            --primary-blue: #007bff;
+            --dark-blue: #0a2540;
+            --telegram-color: #24A1DE;
+            --bg-light: #f4f7f9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            max-width: 450px;
+            width: 100%;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        header {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .flyer-list {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .flyer-img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Instructions Styling */
+        .steps-container {
+            background: #ffffff;
+            margin: 15px 20px;
+            padding: 20px;
+            border-radius: 18px;
+            text-align: left;
+            border: 1px solid #eee;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .step-intro {
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .step-number {
+            background: var(--dark-blue);
+            color: white;
+            min-width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-top: 2px;
+        }
+
+        .highlight-step {
+            background: #fff9e6;
+            padding: 10px;
+            border-radius: 10px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .blink-warning {
+            color: #d9534f;
+            font-weight: 900;
+            text-decoration: underline;
+            animation: blinker 0.8s linear infinite;
+        }
+
+        @keyframes blinker { 50% { opacity: 0; } }
+
+        .note-box {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* Promo Section */
+        .promo-section {
+            background: #f0f7ff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px dashed var(--primary-blue);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .promo-section:active { transform: scale(0.98); }
+
+        #promoCode {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--primary-blue);
+            display: block;
+            margin: 5px 0;
+        }
+
+        /* Buttons */
+        .cta-button {
+            display: block;
+            background: var(--primary-blue);
+            color: white;
+            text-decoration: none;
+            margin: 15px 20px;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+        }
+
+        .support-button {
+            display: block;
+            background: white;
+            color: var(--telegram-color);
+            text-decoration: none;
+            margin: 10px 20px;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: bold;
+            border: 2px solid var(--telegram-color);
+            transition: 0.3s;
+        }
+
+        .support-button:hover {
+            background: var(--telegram-color);
+            color: white;
+        }
+
+        .footer-note {
+            font-size: 0.8rem;
+            color: #888;
+            padding: 20px 30px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <h2 style="color: var(--dark-blue); margin:0;">Carding App</h2>
+        <p style="margin:5px 0 0; color: #666; font-size: 0.9rem;">Trade • Share • Earn</p>
+    </header>
+
+    <div class="flyer-list">
+        <img src="flyer1.png" alt="Giveaway" class="flyer-img">
+        <img src="flyer2.png" alt="Bonus" class="flyer-img">
+        <img src="flyer3.png" alt="Urgent Cash" class="flyer-img">
+    </div>
+
+    <div class="steps-container">
+        <h3 style="color: var(--dark-blue); margin-bottom: 15px;">How to register and get 10k</h3>
+        
+        <p class="step-intro">
+            📮 <b>FOLLOW THESE STEPS TO BE ABLE TO GET THIS FREE CASH</b> 👇👇
+        </p>
+
+        <div class="step-item">
+            <span class="step-number">1</span>
+            <p><b>STEP 1:</b> Download the carding app... first</p>
+        </div>
+
+        <div class="step-item highlight-step">
+            <span class="step-number">2</span>
+            <p><b>STEP 2:</b> When opening an account, <b>use your phone number</b>, <span class="blink-warning">NOT Email</span></p>
+        </div>
+
+        <div class="step-item">
+            <span class="step-number">3</span>
+            <p>🚨 <b>STEP 3:</b> USE THIS INVITATION CODE: <br>
+               <span style="color: var(--primary-blue); font-size: 1.2rem; letter-spacing: 1px;">👉 <b>Win10k</b> 👈</span>
+            </p>
+        </div>
+
+        <p class="note-box">
+            <b>NOTE‼️</b> 👆 You must use this <i>COMPANY INVITATION CODE</i> to qualify.
+        </p>
+    </div>
+
+    <div class="promo-section" onclick="copyToClipboard()">
+        <span style="font-weight:bold; font-size:0.8rem; color: var(--dark-blue);">TAP TO COPY CODE</span>
+        <span id="promoCode">Win10k</span>
+        <span id="copyHint" style="font-size:0.85rem; color:#555;">Click here to copy the ₦10,000 code!</span>
+    </div>
+
+    <a href="#" id="downloadBtn" class="cta-button">DOWNLOAD & REGISTER NOW</a>
+
+    <a href="https://t.me/Tkerryconnect01" target="_blank" class="support-button">💬 CHAT WITH SUPPORT</a>
+
+    <p class="footer-note">
+        Tested, Trusted and Approved Gift card Trading Platform.<br>
+        Always Active 24/7 and Reliable.
+    </p>
+</div>
+
+<script>
+    // 1. Automatic Store Redirect Logic
+    const iosLink = "https://apps.apple.com/ng/app/carding-sell-gift-cards/id6742431377";
+    const androidLink = "https://play.google.com/store/apps/details?id=com.bh.carding";
+
+    const downloadBtn = document.getElementById('downloadBtn');
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Detect OS and set the correct link immediately on page load
+    let finalLink = androidLink; 
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        finalLink = iosLink;
+    }
+    downloadBtn.href = finalLink;
+
+    // 2. Copy to Clipboard Logic
+    function copyToClipboard() {
+        const code = document.getElementById('promoCode').innerText;
+        navigator.clipboard.writeText(code).then(() => {
+            const hint = document.getElementById('copyHint');
+            const originalText = hint.innerText;
+            
+            hint.innerText = "✅ Code Copied!";
+            hint.style.color = "green";
+            hint.style.fontWeight = "bold";
+
+            setTimeout(() => {
+                hint.innerText = originalText;
+                hint.style.color = "#555";
+                hint.style.fontWeight = "normal";
+            }, 2500);
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    }
+</script>
+
+</body>
+</html>
+
